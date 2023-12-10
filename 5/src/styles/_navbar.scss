@@ -1,0 +1,65 @@
+.navbar {
+  .nav-btns {
+    ul {
+      margin-inline-start: 1rem;
+      li {
+        margin-inline: 20px;
+        color: $secondaryColor;
+        text-wrap: nowrap;
+        cursor: pointer;
+        &:hover {
+          color: $primaryColor;
+        }
+      }
+      .active {
+        color: $primaryColor;
+      }
+    }
+  }
+  .loginBtn {
+    button {
+      background-color: $primaryColor;
+      color: $reverseText;
+      border: 0;
+      border-radius: 100px;
+      padding: 10px 24px;
+    }
+  }
+  .nav-mobile {
+    .hamburger {
+      color: $primaryColor;
+      font-size: 24px;
+    }
+    .nav-mobile-page {
+        padding: 0 0 32px 32px;
+      width: 100vw;
+      height: 83.3vh;
+      color: $reverseText;
+      background-color: $primaryColor;
+      position: fixed;
+      top: 111px;
+      left: 0;
+      ul {
+        li {
+          margin-block: 32px;
+          color: $reverseText;
+          text-wrap: nowrap;
+          letter-spacing: 10px;
+          cursor: pointer;
+        }
+        .active {
+          color: $secondaryColor;
+        }
+      }
+      .loginBtn {
+        button {
+          background-color: $reverseText;
+          color: $primaryColor;
+          border: 0;
+          border-radius: 100px;
+          padding: 10px 24px;
+        }
+      }
+    }
+  }
+}
