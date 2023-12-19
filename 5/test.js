@@ -27,11 +27,6 @@ const StationList = () => {
   };
   const handleCityChange = (e) => {
     setSelectedCounties(e.target.value);
-    const resetCheckboxState = () => {
-      setCheckAll(true);
-      setCheckedAreas([]);
-    };
-    resetCheckboxState();
   };
   const handleCheckAllToggle = () => {
     setCheckAll(!checkAll);

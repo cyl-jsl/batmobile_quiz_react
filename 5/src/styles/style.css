@@ -12372,4 +12372,20 @@ textarea.form-control-lg {
   border: 0;
   border-radius: 100px;
   padding: 10px 24px;
+}
+
+.station-list h4.title, .station-list .title.h4 {
+  color: #b5cc22;
+}
+
+.table .table-title {
+  background-color: #b5cc22;
+  color: #fff;
+}
+.table .table-content .count {
+  color: #b5cc22;
+}
+.table li {
+  padding-block: 24px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
